@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 /*página*/
 body {
     background-color: #87CEFA;
@@ -17,4 +18,24 @@ body {
     position: relative;
     width: 350px;
     height: 350px;
+}
+/*Base del hongo*/
+.mushroom {
+    position: relative;
+    width: 240px;
+    height: 280px;
+    margin: 0 auto;
+}
+
+/*Cabeza del hongo*/
+.cap {
+    position: absolute;
+    width: 240px;
+    height: 180px;
+    background-color: #FF0000;
+    border-radius: 120px 120px 50px 50px;
+    top: 0;
+    left: 0;
+    border: 5px solid #000;
+    
 }
